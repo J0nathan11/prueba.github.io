@@ -113,7 +113,7 @@
         tablaBody.innerHTML = ""; // Limpiar la tabla antes de actualizar
         const datosIngresados = document.getElementById("datos-ingresados");
 
-        const reservasRef = ref(database, 'OÑA');
+        const reservasRef = ref(database, 'Oña_Jonathan');
 
         onValue(reservasRef, (snapshot) => {
             const datos = snapshot.val();
@@ -147,7 +147,7 @@
         const fecha = document.getElementById("fecha").value;
         
         push(
-            ref(database, 'OÑA'),
+            ref(database, 'Oña_Jonathan'),
             {
                 codigo: codigo,
                 nombre: nombre,
@@ -173,7 +173,7 @@
         const nuevaEmail = prompt("Nuevo Correo:", reserva.email);
         const nuevaFecha = prompt("Nueva Fecha:",reserva.fecha);
 
-        update(child(ref(database, 'OÑA'), key), {
+        update(child(ref(database, 'Oña_Jonathan'), key), {
             codigo: nuevoCodigo,
             nombre: nuevoNombre,
             telefono: nuevoTelefono,

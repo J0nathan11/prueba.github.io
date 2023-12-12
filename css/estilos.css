@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container1 {
+    width: 80%;
+    height: 410px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(61, 178, 236, 0.882);
+}
+input{
+    width: 200px;
+    margin-left: 450px;
+}
+label{
+    margin-left: 450px;
+}
+.margen{
+    margin-left: 420px;
+}
+.boton{
+    width: 100px;
+    margin-left: 490px;
+}
+.centro{
+    text-align: center;
+}
+header {
+    background-color: #526785;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    background-color: #edd7d7;
+    padding: 40px 0;
+}
+
+#servicio .servicio-item {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+#servicio .servicio-item:last-child {
+    border-bottom: none;
+}
+
+#servicio h3 {
+    margin: 0;
+}
+
+#servicio .precio {
+    float: right;
+    color: #e44d26; /* Color naranja */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+footer {
+    background-color: #526785;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 200px;
+}
+.rojo{
+    color: #af2a08;
+} 
+table{
+    width: 80%;
+    margin: 150px;
+    margin-top: auto;
+    background-color: rgba(64, 106, 221, 0.817);
+}
+button{
+    align-items: center;
+    text-align: center;
+}
+.color{
+    background-color: #a7dcefc3;
+}
